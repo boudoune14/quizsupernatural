@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'supernatural_knightregular';
+  src: url('assets/font/supernatural_knight-webfont.woff2') format('woff2'),
+    url('assets/font/supernatural_knight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'supernatural_knightregular', sans-serif;
+  background: url(assets/image/background.png) 50% 50%;
+  display: grid;
+}
+/**********************NAVBAR**********************/
+.navbar-brand {
+  font-weight: bold;
+}
+.dropdown-toggle {
+  text-decoration: none;
+  color: rgb(172, 170, 170);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background-size: cover;
+  height: 650px;
+}
+h1 {
+  text-align: center;
+  color: rgb(253, 250, 222);
+  font-size: 6rem;
+  margin-top: 50px;
+  text-shadow: 1px 3px 2px red;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: rgb(253, 250, 222);
+  box-shadow: 1px 3px 2px red;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(253, 250, 222);
+  font-size: 3rem;
+  text-shadow: 1px 3px 2px red;
+  margin-bottom: 10%;
+}
+
+/****************************Saison********************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+span,
+i {
+  color: #fa7979;
+}
+
+h3 {
+  color: #fa7979;
+  font-size: 1.5rem;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto 2rem;
+  width: 50%;
+}
+
+button {
+  flex: 1 0 45%;
+  width: 60%;
+  height: 40%;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #eea4a4;
+  user-select: none;
+  font-weight: 900;
+}
+button:hover {
+  background: #fa7979;
+  transition: 0.5s;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+
+p {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+#progress {
+  font-size: 1.3rem;
+  color: #fa7979;
+  padding-bottom: 5%;
+}
